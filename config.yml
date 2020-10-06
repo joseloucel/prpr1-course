@@ -1,0 +1,19 @@
+title: PrPr1
+description: >-
+  Research on the .bmp file format. Using an image( no pornographic, racist and
+  disturbing images allowed) stored in this format, extract the width and the
+  height of the image, and image size in bytes.
+template:
+  repo: prpr1-template
+  name: prpr1
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
